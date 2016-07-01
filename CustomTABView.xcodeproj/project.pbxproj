@@ -13,6 +13,7 @@
 		92FBE9781D2603360052EDCE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92FBE9761D2603360052EDCE /* Main.storyboard */; };
 		92FBE97A1D2603360052EDCE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92FBE9791D2603360052EDCE /* Assets.xcassets */; };
 		92FBE97D1D2603360052EDCE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92FBE97B1D2603360052EDCE /* LaunchScreen.storyboard */; };
+		92FBE9861D2603700052EDCE /* YTSSCustomTABView.m in Sources */ = {isa = PBXBuildFile; fileRef = 92FBE9851D2603700052EDCE /* YTSSCustomTABView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		92FBE9791D2603360052EDCE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		92FBE97C1D2603360052EDCE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		92FBE97E1D2603360052EDCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92FBE9841D2603700052EDCE /* YTSSCustomTABView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTSSCustomTABView.h; sourceTree = "<group>"; };
+		92FBE9851D2603700052EDCE /* YTSSCustomTABView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTSSCustomTABView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				92FBE9711D2603360052EDCE /* AppDelegate.m */,
 				92FBE9731D2603360052EDCE /* ViewController.h */,
 				92FBE9741D2603360052EDCE /* ViewController.m */,
+				92FBE9841D2603700052EDCE /* YTSSCustomTABView.h */,
+				92FBE9851D2603700052EDCE /* YTSSCustomTABView.m */,
 				92FBE9761D2603360052EDCE /* Main.storyboard */,
 				92FBE9791D2603360052EDCE /* Assets.xcassets */,
 				92FBE97B1D2603360052EDCE /* LaunchScreen.storyboard */,
@@ -151,6 +156,7 @@
 			files = (
 				92FBE9751D2603360052EDCE /* ViewController.m in Sources */,
 				92FBE9721D2603360052EDCE /* AppDelegate.m in Sources */,
+				92FBE9861D2603700052EDCE /* YTSSCustomTABView.m in Sources */,
 				92FBE96F1D2603360052EDCE /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
