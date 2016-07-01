@@ -200,7 +200,6 @@
         
         UIView *maskView = [[UIView alloc] initWithFrame:CGRectMake(0, _selectButtonHeight-1, _itemWidth, 3)];
         maskView.backgroundColor = _selectColor;
-//        maskView.backgroundColor = [UIColor redColor];
         [_sliderMaskView addSubview:maskView];
     }
     return _sliderMaskView;
